@@ -8,7 +8,7 @@
     </head>
 
     <body>
-        <h2>hola desde jorge <s:property value="message"/></h2>
+        <h2>hola desde jorge xd   <s:property value="message"/></h2>
           
         <h3>Languages</h3>
         <ul>
