@@ -8,7 +8,7 @@
     </head>
 
     <body>
-        <h2>hola desde jorge xd   <s:property value="message"/></h2>
+        <h2><s:property value="message"/></h2>
           
         <h3>Languages</h3>
         <ul>
@@ -24,7 +24,7 @@
                     <s:param name="request_locale">es</s:param>
                 </s:url>
 
-                <s:a href="%{url}">Espanol</s:a>
+                <s:a href="%{url}">Espaniol</s:a>
 
             </li>
         </ul>
