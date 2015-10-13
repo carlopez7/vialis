@@ -7,4 +7,12 @@
     <!-- Configuration for the default package. -->
     <package name="default" extends="struts-default">
     </package>
+    <package name="controllers"  namespace="/" extends="struts-default">
+         <action name="apli2" class="controllers.IndexController" method="execute">
+             <result name="success">/aplicativo2.jsp</result>
+         </action> 
+         <action name="apli" class="controllers.IndexController" method="otroMetodo">
+             <result name="success">/aplicativo.jsp</result>
+         </action>
+    </package>
 </struts>
